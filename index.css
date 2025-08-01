@@ -1,0 +1,117 @@
+/* universal */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #b388eb, #8e44ad);
+  color: white;
+  padding: 1rem;
+}
+/* Header */
+.header-container {
+  border: 8px solid white;
+  border-radius: 10px;
+  margin: 50px 50px;
+  background-color: white;
+  color: black;
+  animation: fadeIn 2s ease-in-out;
+}
+/* nav */
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #b388eb;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* paraghraph */
+.work {
+  font-weight: bold;
+  font-size: 40px;
+}
+.highlight {
+  color: purple;
+}
+
+/* Container layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+/* Left text section */
+.sub-container {
+  flex: 1;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+/* Profile image container */
+.img-container {
+  width: 250px;
+  height: 250px;
+  border: 8px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Address */
+.button {
+  color: purple;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+}
+.contact {
+  background: #8e44ad;
+  color: white;
+}
+
+.project {
+  background: #8e44ad;
+  color: white;
+}

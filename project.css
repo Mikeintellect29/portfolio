@@ -1,0 +1,91 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e1e2f, #232946);
+  color: #fff;
+  padding: 20px;
+}
+
+a {
+  color: #ffb347;
+  text-decoration: none;
+}
+
+header.header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #111;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #ffb347;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+  background-color: #2d2d3a;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.6rem 1rem;
+  background-color: #ffb347;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #ffb347;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid #333;
+}
